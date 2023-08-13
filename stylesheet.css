@@ -1,0 +1,159 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+header{
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   background: linear-gradient(300deg,rgb(69, 69, 205) 80%,rgb(200, 189, 189) 20%);
+} 
+
+ .logo{
+   background-color: rgb(3, 16, 22);
+   width: 100%;
+   height: 40px;
+}
+.logo i{
+   color: beige;
+   font-weight: 500;
+   background-color: brown;
+   border-radius: 50%;
+}
+
+.navbar{
+   display: inline;
+   margin-right: 150px;
+   color: antiquewhite;
+   font-weight: 600;
+   font-size: medium;
+   margin-left: 30px;
+
+}
+.boat{
+   display: inline;
+   color: white;
+   font-weight: 900;
+   font-size: large;
+text-transform: uppercase;
+}
+button{
+   background-color: rgb(53, 69, 7);
+   color: white;
+}
+.menu i{
+   font-size: 2em;
+   color: rgb(16, 5, 5);
+}
+#headphone{
+   width: 430px;
+   position: absolute;
+   top: 10%;
+   right: 40%;
+   z-index: 1;
+}
+.watermark{
+   position: absolute;
+   color: rgb(226, 216, 216);
+   letter-spacing: 1.7em;
+   bottom:10%;
+   left: 10%;
+   font: 12em;
+   font-size: xx-large;
+   text-transform: uppercase;
+   padding: 10px;
+}
+.swiper {
+   width: 100%;
+   padding-top: 50px;
+   padding-bottom: 50px;
+ }
+
+ .swiper-slide {
+   background-position: center;
+   background-size: cover;
+   width: 300px;
+   height: 300px;
+ }
+
+ .swiper-slide img {
+   display: block;
+   width: 100%;
+ }
+ .slider{
+   max-width: 300px;
+   height: 300px;
+   position: absolute;
+   top: 20%;
+   left: 5%;
+ }
+ footer{
+   position: static;
+   height: 30px;
+   width: 100%;
+   background-color: black;
+   color: aliceblue;
+   font-size: large;
+
+ }
+ /* .mail{
+  display: inline;
+  color: whitesmoke;
+  text-align: left;
+  margin: 0px;
+
+ } */
+ .contact{
+   display: inline;
+   margin-left: 30px;
+ }
+ #sign{
+   position: absolute;
+   top: 50px;
+   right: 50px;
+   height: 300px;
+   width: 250px;
+   background-color: rgb(8, 123, 134);
+   font-weight: 900;
+   font: 800;
+   text-align: center;
+   color: white;
+   border: 2px red solid double;
+ }
+ .login{
+   text-align: center;
+   font-weight: 900;
+   margin: 40px;
+   color: black;
+   text-decoration: underline dotted ;
+ }
+ .name{
+   padding: 10px;
+   text-decoration: wavy;
+ }
+
+ .sign input{
+   margin-top: 200px;
+   margin-bottom: 300px;
+   padding: 20px;
+   width: 50px;
+   
+   background-color: white;
+   color: black;
+   font-family: 'Courier New', Courier, monospace;
+ }
+ #submit{
+   margin: 5px;
+   background-color: rgb(8, 78, 28);
+   color: black;
+   border-color: black;
+ }
+ #signin{
+   color: black;
+   font-weight: 100;
+   text-align: right;
+   position: absolute;
+   right: 35px;
+ }
