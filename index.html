@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boat landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:wght@500&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fa fa-headphones"></i>
+                <div class="boat">Boat</div>
+                <div class="navbar">Home</div>
+                <div class="navbar">Product</div>
+                <div class="navbar">Offers</div>
+                <div class="navbar">About</div>
+                <input type="text" placeholder="srearch..."  class="search">
+                <button>submit</button>
+            </div>
+            <div class="menu">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div id="sign">
+                <h1 class="login" >sign up</h1>
+                <input type="text"  placeholder="Enter name " class="sreach"><br>
+                <input type="text"  placeholder="Mobil number " class="sreach"><br>
+                <input type="text"  placeholder="OTP " class="sreach"><br>
+                 <h4 id="signin">Sign in</h4>
+                <button id="submit">submit</button>
+            </div>
+        </nav>
+        <img src="re boat 2.png" alt="" id="headphone">
+        <h1 class="watermark">HEADPHONE</h1>
+        <div class="slider">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                   <img src="re boat 5.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="re 55.png" alt="">
+                   </div>
+                   <div class="swiper-slide">
+                    <img src="re boat 3.png" alt="">
+                   </div>
+                   <div class="swiper-slide">
+                    <img src="re boat 4.png" alt="">
+                   </div>
+                   <div class="swiper-slide">
+                    <img src="re  33.png" alt="">
+                   </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div><hr>
+    </header>
+    <!-- Javascript code -->
+    <script src="script0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          loop:true,
+          autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+</body>
+</html>
